@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             // set the type to 'email'
             emailIntent.setType("vnd.android.cursor.dir/email");
             emailIntent.setPackage("com.google.android.gm");
-            String to[] = {"piyush.dubey@oodlestechnologies.com"};
+            String to[] = {"your printer email address"};
             emailIntent.putExtra(Intent.EXTRA_EMAIL, to);
 // the attachment
             emailIntent.putExtra(Intent.EXTRA_STREAM, uri);
